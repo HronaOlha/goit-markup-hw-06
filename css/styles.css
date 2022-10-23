@@ -533,7 +533,7 @@ body {
 }
 
 .footer-mail {
-  margin-left: 93px;
+  margin-left: auto;
 }
 
 .footer-input {
@@ -639,7 +639,6 @@ body {
   display: block;
   margin-bottom: 12px;
 
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -726,6 +725,7 @@ body {
 }
 
 .contract-label a {
+  color: var(--accent-color);
   margin-left: 5px;
 }
 
@@ -761,8 +761,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 
-  width: 200px;
-  height: 50px;
+  padding: 10px 55px;
 }
 
 /*-------------------------- PORTFOLIO --------------------------*/
